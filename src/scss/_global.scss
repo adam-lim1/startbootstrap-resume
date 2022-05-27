@@ -38,3 +38,15 @@ p.lead {
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+masthead {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
