@@ -49,7 +49,14 @@ masthead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+// Dynamically hide masthead if under certain width
+@media only screen and (max-width: 760px) {
+    #masthead {
+        display: none;
+    }
+}
 
 .logo {
     width: 65px;
